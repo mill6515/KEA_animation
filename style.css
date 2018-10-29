@@ -1,0 +1,289 @@
+.body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+#menu_background {
+    background: url(produktion/instruktioner.svg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: none;
+}
+
+#game_background {
+    background: url(produktion/baggrund.svg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#start {
+    background: url(produktion/titelside.svg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: none;
+
+}
+
+#settings {
+    background: url(produktion/settings.svg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: none;
+}
+
+#gameover {
+    background: url(produktion/tabt.svg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: none;
+}
+
+#levelcomplete {
+
+    background: url(produktion/vundet.svg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: none;
+}
+
+
+#baby_fly {
+    background-image: url("produktion/baby_fly.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 25vw;
+    height: 23vw;
+    position: absolute;
+    top: 6vw;
+    left: 75vw;
+}
+
+#paraply {
+    background-image: url("produktion/paraply.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 20vw;
+    position: absolute;
+    top: 20vw;
+    left: 2vw;
+}
+
+#paraply1 {
+    background-image: url("produktion/paraply.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 20vw;
+    position: absolute;
+    top: 35vw;
+    left: 38vw;
+}
+
+#paraply2 {
+    background-image: url("produktion/paraply.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 20vw;
+    position: absolute;
+    top: 15vw;
+    left: 41vw;
+}
+
+#paraply3 {
+    background-image: url("produktion/paraply.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 20vw;
+    position: absolute;
+    top: 20vw;
+    left: 68vw;
+}
+
+#pude {
+    background-image: url("produktion/pude.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 20vw;
+    position: absolute;
+    top: 6vw;
+    left: 6vw;
+}
+
+#pude1 {
+    background-image: url("produktion/pude.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 20vw;
+    position: absolute;
+    top: 25vw;
+    left: 18vw;
+}
+
+#pude2 {
+    background-image: url("produktion/pude.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 20vw;
+    position: absolute;
+    top: 8vw;
+    left: 55vw;
+}
+
+#pude3 {
+    background-image: url("produktion/pude.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 20vw;
+    position: absolute;
+    top: 32vw;
+    left: 66vw;
+}
+
+#tordensky {
+    background-image: url("produktion/tordensky.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 20vw;
+    position: absolute;
+    top: 40vw;
+    left: 10vw;
+}
+
+#tordensky1 {
+    background-image: url("produktion/tordensky.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 20vw;
+    position: absolute;
+    top: 7vw;
+    left: 25vw;
+}
+
+#tordensky2 {
+    background-image: url("produktion/tordensky.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 20vw;
+    position: absolute;
+    top: 30vw;
+    left: 50vw;
+}
+
+#tid {
+    background-image: url("produktion/tid.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 8vw;
+    height: 20vw;
+    position: absolute;
+    top: 1vw;
+    left: 39vw;
+    z-index: 1;
+}
+
+#point {
+    background-image: url("produktion/point.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 10vw;
+    height: 20vw;
+    position: absolute;
+    top: 2vw;
+    left: 46vw;
+    z-index: 1;
+}
+
+#klode {
+    background-image: url("produktion/klode.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 40vw;
+    height: 20vw;
+    position: absolute;
+    top: 45.6vw;
+    left: 61.7vw;
+}
+
+#hoved {
+    background-image: url("produktion/hoved.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 7vw;
+    height: 20vw;
+    position: absolute;
+    top: 48vw;
+    left: 72vw;
+    z-index: 1;
+}
+
+#hoved1 {
+    background-image: url("produktion/hoved.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 7vw;
+    height: 20vw;
+    position: absolute;
+    top: 48vw;
+    left: 79vw;
+    z-index: 1;
+}
+
+#hoved2 {
+    background-image: url("produktion/hoved.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 7vw;
+    height: 20vw;
+    position: absolute;
+    top: 48vw;
+    left: 86vw;
+    z-index: 1;
+}
+
+#setting_knap {
+    background-image: url("produktion/setting_knap.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 7vw;
+    height: 20vw;
+    position: absolute;
+    top: 1vw;
+    left: 93vw;
+    z-index: 1;
+}
