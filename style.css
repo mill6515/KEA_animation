@@ -8,22 +8,30 @@
     display: none;
 }
 
+#screen {
+    width: 100vw;
+    height: 56.25vw;
+
+    overflow: hidden;
+    position: relative;
+}
+
 /*START SIDER*/
 
 #menu_background {
-    background: url(produktion/titelside.svg);
-    height: 100vw;
+    background: url(produktion/instruktioner.svg);
+    height: 56.25vw;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    position: absolute;
     top: 0vw;
 }
 
 #game_background {
     background: url(produktion/baggrund.svg);
-    height: 100vw;
+    height: 56.25vw;
     width: 100vw;
     background-size: contain;
     background-repeat: no-repeat;
@@ -32,47 +40,48 @@
 }
 
 #start {
-    background: url(produktion/instruktioner.svg);
-    height: 100vw;
+    background: url(produktion/titelside.svg);
+    height: 56.25vw;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    position: absolute;
     top: 0vw;
+
 }
 
 #settings {
     background: url(produktion/settings.svg);
-    height: 100vw;
+    height: 56.25vw;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    position: absolute;
     top: 0vw;
 }
 
 #gameover {
     background: url(produktion/tabt.svg);
-    height: 100vw;
+    height: 56.25vw;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    position: absolute;
     top: 0vw;
 }
 
 #levelcomplete {
 
     background: url(produktion/vundet.svg);
-    height: 100vw;
+    height: 56.25vw;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    position: absolute;
     top: 0vw;
 }
 
@@ -223,6 +232,19 @@
 
 /*UI ELEMENTER*/
 
+#play {
+    position: absolute;
+    width: 16vw;
+    height: 10vw;
+    background-image: url(produktion/play.svg);
+    background-size: 100%;
+    left: 42vw;
+    top: 38vw;
+    z-index: 1;
+
+    cursor: pointer;
+}
+
 #tid {
     background-image: url("produktion/tid.svg");
     background-repeat: no-repeat;
@@ -232,7 +254,6 @@
     position: absolute;
     top: 1vw;
     left: 39vw;
-    z-index: 1;
 }
 
 #point {
@@ -244,7 +265,6 @@
     position: absolute;
     top: 2vw;
     left: 46vw;
-    z-index: 1;
 }
 
 #klode {
@@ -267,7 +287,6 @@
     position: absolute;
     top: 48vw;
     left: 72vw;
-    z-index: 1;
 }
 
 #hoved1 {
@@ -279,7 +298,6 @@
     position: absolute;
     top: 48vw;
     left: 79vw;
-    z-index: 1;
 }
 
 #hoved2 {
@@ -291,21 +309,61 @@
     position: absolute;
     top: 48vw;
     left: 86vw;
-    z-index: 1;
 }
 
 #setting_knap {
     background-image: url("produktion/setting_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 7vw;
+    width: 8vw;
     height: 20vw;
     position: absolute;
     top: 1vw;
-    left: 93vw;
+    left: 90vw;
     z-index: 1;
 }
 
+/*EFFEKTER*/
+
+
+/*ANIMATIONER*/
+
+
+.fade_out {
+    animation-name: fadeout_kf;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+@keyframes fadeout_kf {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+
+@keyframes pulse_kf {
+    0% {
+        transform: scale(0.97);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
 
 
 .roter {
