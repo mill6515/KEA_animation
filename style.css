@@ -1,4 +1,4 @@
-.body {
+body {
     margin: 0;
     height: 100%;
     overflow: hidden;
@@ -265,6 +265,14 @@
     position: absolute;
     top: 2vw;
     left: 46vw;
+}
+
+#score {
+    font-size: 2rem;
+    position: absolute;
+    top: 1vw;
+    left: 37vw;
+
 }
 
 #klode {
